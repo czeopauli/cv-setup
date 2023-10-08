@@ -1,0 +1,66 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", serif;
+}
+
+.header {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: azure;
+}
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+article + article {
+  margin-top: 30px;
+}
+
+.nav-link {
+  padding: 4px;
+  margin-right: 8px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: rgb(48, 58, 60);
+  background-color: skyblue;
+}
+
+.nav-link:active {
+  background-color: silver;
+}
+
+.main > * {
+  border-top: 2px solid grey;
+}
+
+.main > *:first-child {
+  border-top: none;
+}
+
+::selection {
+  background-color: rgb(205, 245, 244);
+  color: rgb(93, 81, 81);
+}
+
+.profession::after {
+  content: "🕵️‍♀️🤖";
+}
