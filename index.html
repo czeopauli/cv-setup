@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web Developer CV">
     <meta name="author" content="Paulina">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <title>CV Paulina</title>
 </head>
 
 <body>
-
+    <header class="header">
+        <div class="heading-group">
+            <h1 class="main-heading">Paulina Czepulonis</h1>
+            <p class="profession">Currently, I am learning to become a web developer</p>
+            <nav class="navigation">
+                <a class="nav-link" href="#profile">Profile</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#contact">Contact</a>
+        </div>
+        </nav>
+        <aside class="hire-me">Hire Me</aside>
+    </header>
+    <main class="main">
+        <article class="main-article" id="profile">
+            <h2 class="main-article-heading">Profile</h2>
+            <p class="main-article-content">My name is Paulina. I've wanted to change my career for a <i>while</i> now
+                and have
+                discovered the IT industry for myself.</p>
+        </article>
+        <article class="main-article" id="experience">
+            <h2 class="main-article-heading">Experience</h2>
+            <div class="main-article-content">
+                <section>
+                    <header class="experience-header">
+                        <h3 class="experience-heading">WOBAK mbH - Eigentumsverwaltung</h3>
+                        <p class="experience-subheading">10.2019 - 09.2022</p>
+                    </header>
+                    <p>I'm baby bodega boys consectetur live-edge hella.
+                        Vibecession actually <i>knausgaard</i> VHS irony master cleanse vegan laboris post-ironic
+                        cupping
+                        fugiat.
+                        Pinterest enamel pin street art deep v solarpunk.</p>
+                </section>
+                <section>
+                    <header class="experience-header">
+                        <h3 class="experience-heading">HEGAU eG - Miethausverwaltung</h3>
+                        <p class="experience-subheading">01.2018 - 09.2019</p>
+                    </header>
+                    <p>I'm baby bodega boys consectetur live-edge hella.
+                        Vibecession actually <strong>VHS</strong> irony master cleanse vegan laboris post-ironic cupping
+                        fugiat.
+                        Pinterest enamel pin street art deep v solarpunk.</p>
+                </section>
+            </div>
+        </article>
+        <article class="main-article" id="skills">
+            <h2 class="main-article-heading">Skills</h2>
+            <div class="main-article-content">
+                <section>
+                    <h3 class="experience-heading">Soft Skills</h3>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>Teamwork and Collaboration</li>
+                        <li>Customer Service</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Technichal Skills</h3>
+                    <ul>
+                        <li>Wodis, GUI Software for Property Management</li>
+                        <li>Accounting Software</li>
+                        <li>Real Estate Law and Regulations</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+        <!-- Contact Section -->
+        <article class="main-article" id="contact">
+            <h2 class="main-article-heading">Contact</h2>
+            <ol class="main-article-content" type="I">
+                <li>
+                    <a href="mailto:czepulonis.pauli@gmail.com">czepulonis.pauli@gmail.com</a>
+                </li>
+                <li>
+                    <a href="tel:+4917621691915">Phone</a>
+                </li>
+            </ol>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">
+            Did you like my CV?
+            <a class="footer-link" href="mailto:czepulonis.pauli@gmail.com">Contact me</a>
+        </p>
+    </footer>
 </body>
 
 </html>
